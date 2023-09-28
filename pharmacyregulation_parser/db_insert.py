@@ -61,8 +61,8 @@ def insert_records(values):
                     forenames = EXCLUDED.forenames,
                     postal_town = EXCLUDED.postal_town,
                     gphc_registration_number = EXCLUDED.gphc_registration_number,
-                    status = EXCLUDED.status;
-                    registration_expiry_date = EXCLUDED.registration_expiry_date;
+                    status = EXCLUDED.status,
+                    registration_expiry_date = EXCLUDED.registration_expiry_date,
                     fitness_to_practise_information = EXCLUDED.fitness_to_practise_information;
                 """,
                   values)
